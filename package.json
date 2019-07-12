@@ -1,0 +1,16 @@
+{
+  "name": "symlink-rm",
+  "version": "1.0.0",
+  "main": "./lib/main/index.js",
+  "bin": {
+    "symlink-rm": "./index.js"
+  },
+  "author": "sam x chen",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "globby": "^9.2.0",
+    "is-symbolic-link": "^2.0.3",
+    "yargs": "^13.2.4"
+  }
+}
